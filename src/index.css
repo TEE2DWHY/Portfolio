@@ -1,13 +1,203 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background: #112240;
+    margin: 0;
+    font-family: "Montserrat";
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+.nav-link{
+    color:#fff;
+    font-size: 14px;
+}
+.navbar-toggler{
+    color: #64ffda;
+}
+span.numeric{
+    color:#64ffda
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.resume-btn{
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 12px;
+  background: #112240;;
+  padding: 3px 20px 3px 20px;
+  border: solid #64ffda 2px;
+  text-decoration: none;
+  margin-top: 0;
+}
+
+.resume-btn:hover {
+  text-decoration: #ccd6f6;
+}
+button.projects{
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Cinzel', serif;
+  color: #64ffda;
+  font-size: 16px;
+  background: #112240;;
+  padding: 18px 30px 18px 30px;
+  border: solid #64ffda 2px;
+  text-decoration: none;
+  margin-top: 0;
+}
+
+#about{
+     margin-top: 50px;
+}
+#work{
+    margin-top: 50px;
+}
+#projects{
+    margin-top: 50px;
+}
+.header-name{
+    color:#ccd6f6;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+}
+.contact-header{
+    color:#ccd6f6;
+    font-size: 19px;
+}
+.h3-features{
+       color:#8892b0;
+       font-size: 50px;
+       font-family: 'Cinzel', serif;
+}
+.p-1{
+    color:#ccd6f6;
+    /* width: 500px; */
+}
+.acryn-green{
+    color:#64ffda;
+    text-decoration: none;
+    text-decoration: none;
+}
+.about-me-header, .work-header, .project-header{
+    color:#ccd6f6;
+    font-size: 25px;
+     font-weight: bold;
+     padding-left: 10px;
+}
+.numeric-01{
+    color:#64ffda;
+    font-size: larger;
+   }
+
+.p-2{
+    /* width:500px; */
+    color:#8892b0;
+}
+.fast-png{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    /* margin-left: 60px; */
+}
+.fast-png:hover{
+    background-color: #64ffda;
+}
+.card{
+    /* margin-left:20px ; */
+    margin-bottom: 10px;
+}
+/* .card-container{
+    margin-left:60px;
+    margin-right: 45px;
+} */
+/* .img1-container{
+    border: 9px dashed #85FF95;
+} */
+.code{
+width: 80%;
+-webkit-box-shadow: -2px -8px 18px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -8px 18px -5px rgba(0,0,0,0.75);
+box-shadow: -2px -8px 18px -5px rgba(0,0,0,0.75);
+    object-fit: cover;
+}
+.container-project{
+    text-align: center;
+}
+.other-projects{
+    color:#ccd6f6;
+}
+.archive{
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+.archive:hover{
+    text-decoration: underline;
+    color: #ccd6f6;
+}
+/* .projects{
+margin-top: 5%;
+margin-left: 60px;
+margin-left: 40px;
+} */
+.contact-container{
+    margin-top: 80px;
+    text-align: center;
+}
+.get-in-touch{
+    color:#ccd6f6;
+    font-size: 36px;
+}
+.contact-details{
+    color: #8892b0;
+    padding:0px 50px;
+}
+footer{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+footer p{
+    color:#ccd6f6;
+    font-family:'Cinzel', serif;
+    font-size: 12px;
+}
+footer p:hover{
+color:#64ffda;
+cursor: pointer;
+}
+/* table{
+    color:#fff;
+    width: 50%;
+    
+}
+th, tr{
+    padding: 20px;
+    text-align: center;
+}
+td{
+    padding-bottom: 15px;
+} */
+
+/* Media Querry */
+@media(max-width: 1200px){
+    body{
+        text-align: center;
+    }
+    h1.header-name{
+        font-size: 30px;
+    }
+
+    h3.h3-features{
+        font-size: 25px;
+    }
 }
