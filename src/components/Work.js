@@ -15,7 +15,7 @@ function Work() {
                                         <p className="card-text">Team decentralized finance website built using reactJS (props
                                             and map functions), nodejs,
                                             mongodb and solidity.<a style={{ display: "#112240" }}
-                                                href="https://vocal-bublanina-e1e90d.netlify.app/">Website.</a></p>
+                                                href="https://team-defi.netlify.app/">Website.</a></p>
                                     </div>
                                 </div>
                             </div>
