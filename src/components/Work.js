@@ -20,13 +20,11 @@ function Work() {
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-12 col-sm-12">
-                                <div className="card"> <img src="images/Phantom-Wallet.png"
+                                <div className="card"> <img src="images/isend.png"
                                     className="card-img-top" alt="project1" />
                                     <div className="card-body">
-                                        <p className="card-text"> Web3 authentication standard on the Solana Network to cache
-                                            users to database and manage other on-chain features of
-                                            users.. Give it a try at <a style={{ display: "#112240" }}
-                                                href="https://tee2dwhy.github.io/PhatomWallet-AUTH/">Website.</a></p>
+                                        <p className="card-text">Built a logistic web app (launch-page) for delivery of goods and various products using ReactJs. <a style={{ display: "#112240" }}
+                                            href="https://isend-logistic.netlify.app">Website.</a></p>
                                     </div>
                                 </div>
                             </div>
