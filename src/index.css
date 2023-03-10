@@ -22,7 +22,11 @@ a:hover{
     font-weight: bold;
 }
 .navbar-toggler{
-    color: #64ffda;
+    background-color: #64ffda;
+    /* padding: 5px; */
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
 }
 span.numeric{
     color:#64ffda;

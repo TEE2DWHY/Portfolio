@@ -3,9 +3,6 @@ import React from "react";
 function Features() {
     return (
         <section id="features">
-         <audio controls autoPlay style={{display:"none"}}>
-            <source src="audio/AURORA_-_Runaway.mp3" type="audio/mpeg"/>
-        </audio>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-9 features">

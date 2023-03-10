@@ -15,8 +15,17 @@ function App() {
     duration: 2000
   })
 
+  const playAudio = () =>{
+    const audio = document.getElementById("audio")
+    audio.play()
+  }
+
   return (
-    <>   
+    <> 
+    <div onClick={playAudio}>
+      <audio id='audio'>
+        <source src='audio/AURORA_-_Runaway.mp3' />
+      </audio>
       <Navbar />
       <div data-aos="zoom-in"><Features /></div>
       <div  data-aos="slide-up"><About /></div>
@@ -24,6 +33,7 @@ function App() {
       <div  data-aos="slide-up"><Project /></div>
       <div  data-aos="slide-up"><Contact /></div>
       <div  data-aos="slide-up"><Footer /></div>
+      </div>
     </>
   );
 }
