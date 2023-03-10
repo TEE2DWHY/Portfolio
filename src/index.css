@@ -1,7 +1,12 @@
 body{
     background: #112240;
-    margin: 0;
-    font-family: "Montserrat";
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+a:hover{
+    color: #64ffda;
+}
+.navbar{
+    margin-top: 20px;
 }
 .navbar-collapse{
     justify-content: flex-end;
@@ -13,13 +18,15 @@ body{
 }
 .nav-link{
     color:#fff;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
 }
 .navbar-toggler{
     color: #64ffda;
 }
 span.numeric{
-    color:#64ffda
+    color:#64ffda;
+    margin-right: 5px;
 }
 
 .resume-btn{
@@ -30,10 +37,11 @@ span.numeric{
   color: #ffffff;
   font-size: 12px;
   background: #112240;;
-  padding: 3px 20px 3px 20px;
+  padding: 10px 20px;
   border: solid #64ffda 2px;
   text-decoration: none;
-  margin-top: 0;
+  margin-top: -15%;
+  font-weight: bold;
 }
 
 .resume-btn:hover {
@@ -51,6 +59,11 @@ button.projects{
   border: solid #64ffda 2px;
   text-decoration: none;
   margin-top: 0;
+  text-transform: capitalize;
+}
+
+#features{
+    margin-top: 50px;
 }
 
 #about{
@@ -64,8 +77,8 @@ button.projects{
 }
 .header-name{
     color:#ccd6f6;
-    font-weight: bold;
-    font-size: 50px;
+    font-weight: 900;
+    font-size: 65px;
     font-family: 'Cinzel', serif;
 }
 .contact-header{
@@ -74,12 +87,12 @@ button.projects{
 }
 .h3-features{
        color:#8892b0;
-       font-size: 50px;
+       font-size: 80px;
        font-family: 'Cinzel', serif;
 }
 .p-1{
     color:#ccd6f6;
-    /* width: 500px; */
+   width: 60%;
 }
 .acryn-green{
     color:#64ffda;
@@ -94,7 +107,8 @@ button.projects{
 }
 .numeric-01{
     color:#64ffda;
-    font-size: larger;
+    font-size: 16px;
+    letter-spacing: 0.2em;
    }
 
 .p-2{
@@ -196,8 +210,13 @@ td{
     h1.header-name{
         font-size: 30px;
     }
-
+    .p-1 {
+        width: 100%;
+    }
     h3.h3-features{
         font-size: 25px;
+    }
+    .resume-btn{
+        margin-top: 3%;
     }
 }
