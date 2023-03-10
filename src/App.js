@@ -16,7 +16,7 @@ function App() {
   })
 
   return (
-    <>
+    <>   
       <Navbar />
       <div data-aos="zoom-in"><Features /></div>
       <div  data-aos="slide-up"><About /></div>
