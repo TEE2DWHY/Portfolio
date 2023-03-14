@@ -13,8 +13,8 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    animation: fadeOut 4s;
-    animation-fill-mode: forwards;
+    /* animation: fadeOut 4s;
+    animation-fill-mode: forwards; */
 }
 .loader > img{
     /* border-radius: 50%; */

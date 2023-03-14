@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 // Aos Library
 import Aos from "aos"
 import "aos/dist/aos.css"
+import { useEffect } from 'react';
 
 function App() {
 
@@ -20,10 +21,11 @@ function App() {
     audio.play()
   }
 
-  window.addEventListener("load", function(){
-    const loader =  document.querySelector(".loader");
-    loader.className += " hidden"
+
+  useEffect(()=>{
+    document.querySelector(".loader").classList.add("hidden")
   })
+  
 
   return (
     <> 
