@@ -23,12 +23,12 @@ body{
     animation: fadeOut 2s;
     animation-fill-mode: forwards;
 }
-/* @keyframes fadeOut{
+@keyframes fadeOut{
     100%{
         opacity: 0;
         visibility: hidden;
     }
-} */
+}
 a:hover{
     color: #64ffda;
 }
