@@ -20,9 +20,17 @@ function App() {
     audio.play()
   }
 
+  window.addEventListener("load", function(){
+    const loader =  document.querySelector(".loader");
+    loader.className += " hidden"
+  })
+
   return (
     <> 
-    <div onClick={playAudio}>
+    <div className='loader'>
+        <img className='img-fluid' src="images/loading.gif" alt='loading...'/>
+      </div>
+    <div onClick={playAudio} id="body">
       <audio id='audio'>
         <source src='audio/AURORA_-_Runaway.mp3' />
       </audio>
