@@ -20,7 +20,7 @@ body{
     height: 200px;
 }
 .loader.hidden{
-    animation: fadeOut 5s;
+    animation: fadeOut 2s;
     animation-fill-mode: forwards;
 }
 @keyframes fadeOut{
