@@ -13,8 +13,6 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    /* animation: fadeOut 4s;
-    animation-fill-mode: forwards; */
 }
 .loader > img{
     /* border-radius: 50%; */
@@ -22,7 +20,7 @@ body{
     height: 200px;
 }
 .loader.hidden{
-    animation: fadeOut 2s;
+    animation: fadeOut 5s;
     animation-fill-mode: forwards;
 }
 @keyframes fadeOut{
