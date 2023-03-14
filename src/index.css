@@ -13,7 +13,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    animation: fadeOut 3s;
+    animation: fadeOut 4s;
     animation-fill-mode: forwards;
 }
 .loader > img{
@@ -21,10 +21,10 @@ body{
     width: 200px;
     height: 200px;
 }
-/* .loader.hidden{
+.loader.hidden{
     animation: fadeOut 2s;
     animation-fill-mode: forwards;
-} */
+}
 @keyframes fadeOut{
     100%{
         opacity: 0;
