@@ -53,12 +53,12 @@ a:hover{
     font-weight: bold;
 }
 
-.nav-link:hover{
+.nav-details:hover{
     color: #64ffda;
 }
 
-.nav-link:hover ~ span.numeric{
-    color: #fff;
+.numeric:hover ~ .nav-details{
+    color: #64ffda;
 }
 
 .navbar-toggler{
@@ -68,7 +68,7 @@ a:hover{
     color: #fff;
     font-size: 14px;
 }
-span.numeric{
+.numeric{
     color:#64ffda;
     margin-right: 5px;
 }

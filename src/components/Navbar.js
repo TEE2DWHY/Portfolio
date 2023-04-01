@@ -10,13 +10,13 @@ function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li className="nav-item item-list"> <a class="nav-link" href="#about"><span class="numeric">01.
-                        </span><span>About</span></a> </li>
+                        </span><span className="nav-details">About</span></a> </li>
                         <li className="nav-item"> <a class="nav-link" href="#projects"><span class="numeric">02.
-                        </span><span>Experience</span></a> </li>
+                        </span><span className="nav-details">Experience</span></a> </li>
                         <li className="nav-item"> <a class="nav-link" href="/#"><span class="numeric">03.
-                        </span><span>Work</span></a> </li>
+                        </span><span className="nav-details">Work</span></a> </li>
                         <li className="nav-item"> <a class="nav-link" href="#contact"><span class="numeric">04.
-                        </span><span>Contact</span></a> </li>
+                        </span><span className="nav-details">Contact</span></a> </li>
                         <li className="nav-item"> <a class="nav-link" href="Tech-Resume.pdf"><button
                             className="resume-btn">Resume</button></a>
                         </li>
