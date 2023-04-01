@@ -1,4 +1,4 @@
-import React from "react";
+import { Typewriter } from 'react-simple-typewriter'
 
 function Features() {
     return (
@@ -11,7 +11,17 @@ function Features() {
                         <h3 className="h3-features">I build things for the web.</h3>
                         <p className="p-1">I’m a software engineer specializing in building (and occasionally designing)
                             exceptional digital experiences. Currently, I’m focused on building accessible, human-centered
-                            products with great user <span className="acryn-green">Experience.</span> </p>
+                            products with great user <span className="acryn-green">
+                            <Typewriter
+                                words={['experience.', 'design.', 'flexibility.']}
+                                loop={0}
+                                cursor
+                                cursorStyle='|'
+                                typeSpeed={100}
+                                deleteSpeed={50}
+                                delaySpeed={1000}
+                            />
+                            </span> </p>
                                 <a href="https://github.com/TEE2DWHY?tab=repositories"><button
                                     className="projects">check out my projects!</button></a>
                     </div>

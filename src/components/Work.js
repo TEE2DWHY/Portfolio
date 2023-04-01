@@ -6,7 +6,7 @@ function Work() {
             <div className="container work-container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <h5><span className="numeric-01">02.</span><span className="work-header">Work??</span></h5> <br />
+                        <h5><span className="numeric-01">02.</span><span className="work-header">Work</span></h5> <br />
                         <div className="row card-container">
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <div className="card"> <img src="images/Team-Defi-(React).png"

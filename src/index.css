@@ -23,6 +23,10 @@ body{
     animation: fadeOut 5s;
     animation-fill-mode: forwards;
 }
+
+.highlight{
+    color: #64ffda;
+}
 @keyframes fadeOut{
     100%{
         opacity: 0;
@@ -48,6 +52,15 @@ a:hover{
     font-size: 16px;
     font-weight: bold;
 }
+
+.nav-link:hover{
+    color: #64ffda;
+}
+
+.nav-link:hover ~ span.numeric{
+    color: #fff;
+}
+
 .navbar-toggler{
     background-color: #64ffda;
     /* padding: 5px; */
@@ -133,8 +146,9 @@ button.projects{
 .about-me-header, .work-header, .project-header{
     color:#ccd6f6;
     font-size: 25px;
-     font-weight: bold;
-     padding-left: 10px;
+    font-weight: bolder;
+    padding-left: 10px;
+    font-family: serif;
 }
 .numeric-01{
     color:#64ffda;
